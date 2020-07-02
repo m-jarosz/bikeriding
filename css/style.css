@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #e9ffdc;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header__title,
+.mainContent__header,
+.mainContent__subHeader,
+.aside__header,
+.footer {
+    font-family: "Roboto", sans-serif;
+}
+
+.header,
+.header__title,
+.navigation__item,
+.mainContent__header,
+.aside__header {
+    text-transform: uppercase;
+}
+
+.header,
+.navigation {
+    margin: 0 10px 10px;
+}
+
+.header,
+.mainContent__section,
+.navigation {
+    border-bottom: 1px solid #6b8e23;
+}
+
+.mainContent__header,
+.aside__header {
+    text-align: center;
+}
+
+.mainContent__section,
+.aside {
+    padding: 15px 10px;
+    margin: 10px 10px;
+}

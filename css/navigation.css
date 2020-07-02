@@ -1,0 +1,47 @@
+.navigation__list {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigation__item {
+    display: inline-block;
+    padding: 15px;
+}
+
+.navigation__link,
+.mainContent__link {
+    text-decoration: none;
+}
+
+.navigation__link:link {
+    color: #5f4545;
+}
+
+.navigation__link:visited {
+    color: #5c2323;
+}
+
+.navigation__link:hover {
+    color: #a01c1c;
+}
+
+.navigation__link:active {
+    color: #e9700c;
+}
+
+.mainContent__link--toTop {
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+}
+
+@media(max-width: 540px) {
+    .navigation__list {
+        text-align: center;
+    }
+    
+    .navigation__item {
+        display: block;
+    }
+}

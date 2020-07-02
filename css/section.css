@@ -1,0 +1,26 @@
+.mainContent__paragraph {
+    line-height: 1.5;
+}
+
+.mainContent__paragraph--centered {
+    text-align: center;
+}
+
+.mainContent__link {
+    color: #5f4545;
+}
+
+.mainContent__figure {
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.mainContent__image {
+    max-width: 100%;
+    box-shadow: 1px 1px 5px -1px #000;
+}
+
+.mainContent__figcaption {
+    text-align: center;
+}
+
