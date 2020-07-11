@@ -1,8 +1,8 @@
 {
-    let moreFirstArticle = document.querySelector(".js-firstArticle");
-    let moreSecondArticle = document.querySelector(".js-secondArticle");
-    let readMoreFirstButton = document.querySelector(".js-firstButton");
-    let readMoreSecondButton = document.querySelector(".js-secondButton");
+    const moreFirstArticle = document.querySelector(".js-firstArticle");
+    const moreSecondArticle = document.querySelector(".js-secondArticle");
+    const readMoreFirstButton = document.querySelector(".js-firstButton");
+    const readMoreSecondButton = document.querySelector(".js-secondButton");
 
     readMoreFirstButton.addEventListener("click", () => {
         if (readMoreFirstButton.innerText === "Pokaż więcej") {
